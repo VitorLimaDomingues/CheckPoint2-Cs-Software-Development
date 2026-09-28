@@ -106,4 +106,57 @@
             Console.WriteLine("Reprovado!");
         }
     }
+
+    static void Main()
+    {
+        Console.WriteLine("Bem-vindo a calculadora de notas v30");
+
+        // As notas ficam disponíveis para o Main inteiro
+        HashSet<int> notas = new HashSet<int>();
+
+        while (true)
+        {
+            Menu();
+
+            string escolha = Console.ReadLine();
+
+            if (!int.TryParse(escolha, out int e))
+            {
+                Console.WriteLine("Falha na conversão, digite um valor válido!");
+                continue;
+            }
+
+            Console.WriteLine("Valor recebido com sucesso!");
+
+            if (e < 1 || e > 4)
+            {
+                Console.WriteLine("Digite o respectivo valor apresentado no menu!");
+                continue;
+            }
+
+            if (e == 1)
+            {
+                CadastrarAluno();
+            }
+
+            if (e == 2)
+            {
+                notas = LancarNotas();
+            }
+
+            if (e == 3)
+            {
+                double media = CalcularMedia(notas);
+
+                Console.WriteLine($"Média do Aluno: {media:F2}");
+
+                ExibirSituacao(media);
+            }
+
+            if (e == 4)
+            {
+                break;
+            }
+        }
+    }
 }
