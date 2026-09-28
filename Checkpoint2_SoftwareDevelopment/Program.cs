@@ -21,4 +21,54 @@
 
         string nome = Console.ReadLine();
     }
+
+    // Método para lançar notas
+    static HashSet<int> LancarNotas()
+    {
+        HashSet<int> notas = new HashSet<int>();
+
+        Console.WriteLine("Você escolheu a opção 2 - Lançar notas");
+        Console.WriteLine("Informe as 3 notas do respectivo aluno");
+
+        Console.Write("Primeira nota: ");
+        string nota1 = Console.ReadLine();
+
+        Console.Write("Segunda nota: ");
+        string nota2 = Console.ReadLine();
+
+        Console.Write("Terceira nota: ");
+        string nota3 = Console.ReadLine();
+
+        if (int.TryParse(nota1, out int n1))
+        {
+            Console.WriteLine("Valor recebido com sucesso!");
+            notas.Add(n1);
+        }
+        else
+        {
+            Console.WriteLine("Falha na conversão, digite um valor válido!");
+        }
+
+        if (int.TryParse(nota2, out int n2))
+        {
+            Console.WriteLine("Valor recebido com sucesso!");
+            notas.Add(n2);
+        }
+        else
+        {
+            Console.WriteLine("Falha na conversão, digite um valor válido!");
+        }
+
+        if (int.TryParse(nota3, out int n3))
+        {
+            Console.WriteLine("Valor recebido com sucesso!");
+            notas.Add(n3);
+        }
+        else
+        {
+            Console.WriteLine("Falha na conversão, digite um valor válido!");
+        }
+
+        return notas;
+    }
 }
