@@ -24,9 +24,9 @@
     }
 
     // Método para lançar notas
-    static HashSet<int> LancarNotas()
+    static List<int> LancarNotas()
     {
-        HashSet<int> notas = new HashSet<int>();
+        List<int> notas = new List<int>();
 
         Console.WriteLine("Você escolheu a opção 2 - Lançar notas");
         Console.WriteLine("Informe as 3 notas do respectivo aluno");
@@ -74,7 +74,7 @@
     }
 
     // Método calcular média
-    static double CalcularMedia(HashSet<int> notas)
+    static double CalcularMedia(List<int> notas)
     {
         Console.WriteLine("Você escolheu a opção 3 - Calcular média");
 
@@ -112,7 +112,7 @@
     {
         Console.WriteLine("Bem-vindo a calculadora de notas v30");
 
-        HashSet<int> notas = new HashSet<int>();
+        List<int> notas = new List<int>();
 
         while (true)
         {
