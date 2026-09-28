@@ -71,4 +71,19 @@
 
         return notas;
     }
+
+    // Método calcular média
+    static double CalcularMedia(HashSet<int> notas)
+    {
+        Console.WriteLine("Você escolheu a opção 3 - Calcular média");
+
+        int soma = 0;
+
+        foreach (int nota in notas)
+        {
+            soma += nota;
+        }
+
+        return (double)soma / notas.Count;
+    }
 }
