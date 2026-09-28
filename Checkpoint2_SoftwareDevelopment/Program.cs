@@ -11,4 +11,14 @@
             4. Sair
             """);
     }
+
+    // Método para cadastrar aluno
+    static void CadastrarAluno()
+    {
+        Console.WriteLine("Você escolheu a opção 1 - Cadastrar aluno");
+        Console.WriteLine("(caso deseje voltar ao menu, digite 'sair')");
+        Console.Write("Informe o nome do aluno: ");
+
+        string nome = Console.ReadLine();
+    }
 }
