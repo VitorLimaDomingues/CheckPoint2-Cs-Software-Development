@@ -78,6 +78,12 @@
     {
         Console.WriteLine("Você escolheu a opção 3 - Calcular média");
 
+        if (notas.Count == 0)
+        {
+            Console.WriteLine("Nenhuma nota foi lançada.");
+            return 0;
+        }
+
         int soma = 0;
 
         foreach (int nota in notas)
