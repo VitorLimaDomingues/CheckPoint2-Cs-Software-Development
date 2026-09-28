@@ -86,4 +86,24 @@
 
         return (double)soma / notas.Count;
     }
+
+    // Método exibir situação
+    static void ExibirSituacao(double media)
+    {
+        const double MEDIA_APROVACAO = 7.0;
+        const double MEDIA_RECUPERACAO = 5.0;
+
+        if (media >= MEDIA_APROVACAO)
+        {
+            Console.WriteLine("Aprovado!");
+        }
+        else if (media >= MEDIA_RECUPERACAO)
+        {
+            Console.WriteLine("Recuperação!");
+        }
+        else
+        {
+            Console.WriteLine("Reprovado!");
+        }
+    }
 }
