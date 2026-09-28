@@ -3,6 +3,7 @@
     // Método para apresentar o menu
     static void Menu()
     {
+        Console.WriteLine("\n") ;
         Console.WriteLine("""
             Digite o respectivo valor para navegar no sistema:
             1. Cadastrar aluno
@@ -111,13 +112,11 @@
     {
         Console.WriteLine("Bem-vindo a calculadora de notas v30");
 
-        // As notas ficam disponíveis para o Main inteiro
         HashSet<int> notas = new HashSet<int>();
 
         while (true)
         {
             Menu();
-
             string escolha = Console.ReadLine();
 
             if (!int.TryParse(escolha, out int e))

@@ -1,0 +1,14 @@
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\bin\Debug\net8.0\Checkpoint2_SoftwareDevelopment.exe
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\bin\Debug\net8.0\Checkpoint2_SoftwareDevelopment.deps.json
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\bin\Debug\net8.0\Checkpoint2_SoftwareDevelopment.runtimeconfig.json
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\bin\Debug\net8.0\Checkpoint2_SoftwareDevelopment.dll
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\bin\Debug\net8.0\Checkpoint2_SoftwareDevelopment.pdb
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\obj\Debug\net8.0\Checkpoint2_SoftwareDevelopment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\obj\Debug\net8.0\Checkpoint2_SoftwareDevelopment.AssemblyInfoInputs.cache
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\obj\Debug\net8.0\Checkpoint2_SoftwareDevelopment.AssemblyInfo.cs
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\obj\Debug\net8.0\Checkpoint2_SoftwareDevelopment.csproj.CoreCompileInputs.cache
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\obj\Debug\net8.0\Checkpoint2_SoftwareDevelopment.dll
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\obj\Debug\net8.0\refint\Checkpoint2_SoftwareDevelopment.dll
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\obj\Debug\net8.0\Checkpoint2_SoftwareDevelopment.pdb
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\obj\Debug\net8.0\Checkpoint2_SoftwareDevelopment.genruntimeconfig.cache
+C:\Users\labsfiap\source\repos\Checkpoint2_SoftwareDevelopment\Checkpoint2_SoftwareDevelopment\obj\Debug\net8.0\ref\Checkpoint2_SoftwareDevelopment.dll
